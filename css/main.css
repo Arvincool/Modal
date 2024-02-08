@@ -1,0 +1,28 @@
+
+body {
+	color: black;
+	background: black;
+}
+
+
+button {
+	border: none;
+	padding: 10px;
+	background-color: white;
+	color: red;
+	font-size: 20px;
+	cursor: pointer;
+	display: inline-block;
+	margin: 5px 3px;
+	border-radius: 5px;
+	position: absolute;
+	left: 700px;
+	
+}
+
+button:hover {
+	background: lightgray;
+}
+.content{
+	color: black;
+}

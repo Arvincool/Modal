@@ -1,0 +1,77 @@
+
+
+
+
+
+
+.modal {
+	position: absolute;
+	top: 220px;
+	left: 380px;
+	width: 50%;
+	height: auto;
+}
+
+.md-show {
+	visibility: visible;
+}
+
+/* content style */
+.content {
+	color: #fff;
+	background: orange;
+	position: relative;
+	border-radius: 3px;
+	margin: 0 auto;
+}
+
+.content h3 {
+	margin: 0;
+	padding: 0.4em;
+	text-align: center;
+	font-size: 2.4em;
+	font-weight: 300;
+	opacity: 0.8;
+	background: rgba(0,0,0,0.1);
+	border-radius: 3px 3px 0 0;
+}
+
+.content > div {
+	padding: 15px 40px 30px;
+	margin: 0;
+	font-weight: 300;
+	font-size: 1.15em;
+}
+
+.content > div p {
+	margin: 0;
+	padding: 10px 0;
+}
+
+.content > div ul {
+	margin: 0;
+	padding: 0 0 30px 20px;
+}
+
+.content > div ul li {
+	padding: 5px 0;
+}
+
+.content button {
+	display: block;
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+
+
+.md-effect-1 .content {
+	transform: scale(0.8);
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.md-show.md-effect-1 .content {
+	transform: scale(1);
+	opacity: 1;
+}
+
